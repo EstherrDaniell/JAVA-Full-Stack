@@ -1,4 +1,4 @@
-package jfs_exp1;
+package jfs_exp1.LC1;
 import java.util.*;
 
 public class Activity2 {
@@ -13,7 +13,7 @@ public class Activity2 {
                 pass++;
         }
 
-        System.out.println(pass);
+        System.out.println("Number of Passed students:" + pass);
         sc.close();
     }
 }
